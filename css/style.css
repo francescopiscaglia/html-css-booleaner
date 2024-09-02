@@ -16,7 +16,7 @@ header{
     position: relative;
     top: 100px;
 }
-/* Header stop */
+/* Header end */
 
 /* Main title start */
 #main-title{
@@ -34,7 +34,7 @@ header{
     text-decoration: none;
     color: rgba(0, 162, 255, 0.951)
 }
-/* Main title stop */
+/* Main title end */
 
 /* Gallery section start */
 #gallery-section{
@@ -64,12 +64,24 @@ header{
 }
 
 #info-table{
-    text-align: center;
-    height: 400px;
-    border: 2px solid black;
+    text-align: justify;
+    margin-top: 30px;
+    border-collapse: collapse;
 }
 
 #table-header{
-    background-color: color: rgba(0, 162, 255, 0.951);
+    color: white;
 }
 
+td{
+    width: 33.3%;
+}
+
+.row-h{
+    background-color: rgba(0, 162, 255, 0.951)
+}
+
+.row-blue{
+    background-color: lightcyan;
+}
+/* Info section end */
