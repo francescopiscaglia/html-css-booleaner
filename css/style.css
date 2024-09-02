@@ -52,3 +52,24 @@ header{
 #gallery-section p{
     margin: 0px;
 }
+/* Gallery section end */
+
+/* Info section start */
+#info-section{
+    font-size: 25px;
+}
+
+#highlighted-text{
+    background-color: yellow;
+}
+
+#info-table{
+    text-align: center;
+    height: 400px;
+    border: 2px solid black;
+}
+
+#table-header{
+    background-color: color: rgba(0, 162, 255, 0.951);
+}
+
