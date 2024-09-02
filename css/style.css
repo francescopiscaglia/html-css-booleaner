@@ -1,3 +1,9 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header start */
 header{
     background-color: rgb(12, 142, 223);
     background-image: url(../img/pattern.png);
@@ -5,17 +11,14 @@ header{
     height: 200px;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-}
-
 #logo-img{
     width: 300px;
     position: relative;
     top: 100px;
 }
+/* Header stop */
 
+/* Main title start */
 #main-title{
     font-size: 50px;
     margin-bottom: 0px;
@@ -30,4 +33,22 @@ header{
 #main-subtitle a{
     text-decoration: none;
     color: rgba(0, 162, 255, 0.951)
+}
+/* Main title stop */
+
+/* Gallery section start */
+#gallery-section{
+    margin-top: 20px;
+}
+
+#tim-speach{
+    width: 900px;
+}
+
+#tim-profile{
+    width: 700px;
+}
+
+#gallery-section p{
+    margin: 0px;
 }
