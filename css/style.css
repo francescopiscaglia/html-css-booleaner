@@ -3,26 +3,25 @@ body{
     padding: 0;
 }
 
+/* #region Utility start */
 .container{
     width: 80%;
     margin: auto;
 }
+/* #endregion Utility end */
 
-/* Header start */
+/* #region Header start */
 header{
     background-color: rgb(12, 142, 223);
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    height: 150px;
+    background-size: 400px;
 }
 
 #logo-img{
     width: 300px;
-    /* position: relative;
-    top: 70px; */
-    margin-top: 70px;
+    padding-top: 70px;
 }
-/* Header end */
+/* #endregion Header start */
 
 /* Main title start */
 #main-title{
@@ -42,7 +41,7 @@ header{
 }
 /* Main title end */
 
-/* Gallery section start */
+/* Main gallery section start */
 #gallery-section{
     margin-top: 20px;
 }
@@ -58,14 +57,14 @@ header{
 #gallery-section p{
     margin: 0px;
 }
-/* Gallery section end */
+/* Main gallery section end */
 
-/* Info section start */
+/* Main info section start */
 #info-section{
     font-size: 25px;
 }
 
-#highlighted-text{
+.highlighted-text{
     background-color: yellow;
 }
 
@@ -90,7 +89,7 @@ td{
 .row-blue{
     background-color: lightcyan;
 }
-/* Info section end */
+/* Main info section end */
 
 /* Footer start */
 footer h2{
