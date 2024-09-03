@@ -10,7 +10,6 @@
     
     <!-- Header -->
     <header>
-
         <div class="container">
             <img id="logo-img" src="./img/logo.svg" alt="logo-img">
         </div>
@@ -20,57 +19,66 @@
     <main>
 
         <!-- Start main title section -->
-        <section id="title-section" class="container">
-
-            <h1 id="main-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-
-            <p id="main-subtitle">Scritto da <a href="/">The Booleaner</a><br>il 10/10/2020</p>
+        <section class="container">
+            <h1 id="main-title">
+                Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
+            </h1>
+            <p id="main-subtitle">
+                Scritto da <strong>The Booleaner</strong><br>
+                il 10/10/2020
+            </p>
         </section>
 
         <!-- Start gallery section -->
         <section id="gallery-section" class="container">
 
-            <img id="tim-speach" src="./img/tim-1.jpg" alt="tim-speach">
-            <img id="tim-profile" src="./img/tim-2.jpg" alt="tim-profile">
+            <figure> <!--  tag sematico per le immagini -->
+                <img id="tim-speach" src="./img/tim-1.jpg" alt="tim-speach">
+                <img id="tim-profile" src="./img/tim-2.jpg" alt="tim-profile">
 
-            <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-            <p>2nd Photo: Wikimedia, by Paul Clarke</p>
-
+                <figcaption>
+                    <!-- tag semantico per le caption -->
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
+                </figcaption>
+                <figcaption>
+                    2nd Photo: Wikimedia, by Paul Clarke
+                </figcaption>
+            </figure>
         </section>
 
         <!-- Start text section -->
         <section id="info-section" class="container">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at sit culpa ea incidunt aut a voluptate hic quo ex error quasi,<span class="highlighted-text"> qui quaerat harum omnis minima exercitationem iusto quia spanaccusamus ratione</span>, perferendis eius ipsam! Officia hic, perspiciatis aut quos similique ad adipisci doloremque veniam libero provident, deserunt quibusdam itaque eum harum exercitationem voluptatum? Delectus inventore saepe atque ullam minima nisi, odit iusto vel, necessitatibus excepturi ipsa ipsum, quia sint repudiandae earum blanditiis nostrum soluta officiis maiores cum laudantium quod..</p>
+            <p class="general-padding">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at sit culpa ea incidunt aut a voluptate hic quo ex error quasi,<span class="highlighted-text"> qui quaerat harum omnis minima exercitationem iusto quia spanaccusamus ratione</span>, perferendis eius ipsam! Officia hic, perspiciatis aut quos similique ad adipisci doloremque veniam libero provident, deserunt quibusdam itaque eum harum exercitationem voluptatum? Delectus inventore saepe atque ullam minima nisi, odit iusto vel, necessitatibus excepturi ipsa ipsum, quia sint repudiandae earum blanditiis nostrum soluta officiis maiores cum laudantium quod..
+            </p>
 
-            <ul>
-
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque deserunt porro mollitia iste. Harum sapiente autem, molestias obcaecati iure deleniti iusto tempora non ullam, sunt pariatur eius ea possimus.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum ipsam accusantium aliquid inventore, suscipit architecto molestias quam, fuga a voluptate ab nesciunt dicta fugiat. In adipisci facere vero laborum?/li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi incidunt molestiae, quidem ipsam fugiat consequuntur, voluptatem magnam quaerat excepturi aliquid eligendi, expedita eius! Inventore accusantium magnam magni laboriosam recusandae.</li>
-
+            <ul class="general-padding">
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque deserunt porro mollitia iste. Harum sapiente autem, molestias obcaecati iure deleniti iusto tempora non ullam, sunt pariatur eius ea possimus.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatum ipsam accusantium aliquid inventore, suscipit architecto molestias quam, fuga a voluptate ab nesciunt dicta fugiat. In adipisci facere vero laborum?
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi incidunt molestiae, quidem ipsam fugiat consequuntur, voluptatem magnam quaerat excepturi aliquid eligendi, expedita eius! Inventore accusantium magnam magni laboriosam recusandae.
+                </li>
             </ul>
 
             <table id="info-table">
-
-                <thead id="table-header">
-
+                <thead>
                     <tr class="row-h">
                         <th>Lorem, ipsum dolor.</th>
                         <th>Lorem, ipsum dolor.</th>
-                        <th>Lorem, ipsum dolor.</th>
+                        <th class="w-50">Lorem, ipsum dolor.</th>
                     </tr>
-
                 </thead>
-
-                <tbody id="table-body">
-
+                <tbody>
                     <tr class="row-blue">
                         <td>Lorem, ipsum dolor.</td>
                         <td>Lorem, ipsum dolor.</td>
                         <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic animi neque molestias odio beatae! Recusandae quisquam saepe quia quod!</td>
                     </tr>
-
                     <tr class="row-white">
                         <td>Lorem, ipsum dolor.</td>
                         <td>Lorem, ipsum dolor.</td>
@@ -85,20 +93,22 @@
                 </tbody>
             </table>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at sit culpa ea incidunt aut a voluptate hic quo ex error quasi,<span class="highlighted-text"> qui quaerat harum omnis minima exercitationem iusto quia spanaccusamus ratione</span>, perferendis eius ipsam! Officia hic, perspiciatis aut quos similique ad adipisci doloremque veniam libero provident, deserunt quibusdam itaque eum harum exercitationem voluptatum? Delectus inventore saepe atque ullam minima nisi, odit iusto vel, necessitatibus excepturi ipsa ipsum, quia sint repudiandae earum blanditiis nostrum soluta officiis maiores cum laudantium quod..</p>
+            <p class="general-padding">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at sit culpa ea incidunt aut a voluptate hic quo ex error quasi,<span class="highlighted-text"> qui quaerat harum omnis minima exercitationem iusto quia spanaccusamus ratione</span>, perferendis eius ipsam! Officia hic, perspiciatis aut quos similique ad adipisci doloremque veniam libero provident, deserunt quibusdam itaque eum harum exercitationem voluptatum? Delectus inventore saepe atque ullam minima nisi, odit iusto vel, necessitatibus excepturi ipsa ipsum, quia sint repudiandae earum blanditiis nostrum soluta officiis maiores cum laudantium quod..
+            </p>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="container">
+    <footer class="container general-padding">
 
         <h2>Potrebbero interessarti</h2>
 
-        <div id="monitor">
+        <div id="monitor" class="related-article">
             <span class="text-img">Lorem, ipsum dolor.</span>
         </div>
 
-        <div id="graph">
+        <div id="graph" class="related-article">
             <span class="text-img">Lorem, ipsum dolor.</span>
         </div>
 
